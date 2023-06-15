@@ -12,7 +12,35 @@
               max-width: 126px;
           }
         }
+        &-collapse {
+            display: flex;
+            flex-direction: column;
+            background-color: $bg-secondary;
+            margin: 0 -20px;
+            padding: 0 40px;
+            transform: translate(0, 15px);
+        }
+        &-nav {
+            padding: 37px 0 23px;
+
+            a {
+                padding: 0 0 11px;
+                font-size: 24px;
+                line-height: 222%;
+            }
+        }
+        
+        .btn {
+            padding: 22px 26px;
+            margin: 0 auto 60px;
+            width: 100%;
+            max-width: 295px;
+            justify-content: center;
+        }
+
     }
+
+    
 }
 
 

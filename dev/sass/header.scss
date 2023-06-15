@@ -2,15 +2,11 @@
     padding-top: 25px;
     padding-bottom: 39px;
 
-
-
     &-brand {
         padding-top: 0;
         padding-bottom: 0;
     }
-
-
-
+ 
     &-nav {
         margin: 0 auto;
 
@@ -35,6 +31,12 @@
         margin-left: 16px;
         letter-spacing: 0;
         white-space: nowrap;
+    }
+
+
+    &-nav {
+        flex-direction: column;
+        align-items: center;
     }
 }
 
