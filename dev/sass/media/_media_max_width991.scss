@@ -1,17 +1,21 @@
 @media screen and (max-width: 991px) {
+
     .container {
         padding-left: 20px;
         padding-right: 20px;
     }
+
     .navbar {
         padding-top: 16px;
         padding-bottom: 18px;
+
         &-brand {
-   
+
             img {
-              max-width: 126px;
-          }
+                max-width: 126px;
+            }
         }
+
         &-collapse {
             display: flex;
             flex-direction: column;
@@ -20,6 +24,7 @@
             padding: 0 40px;
             transform: translate(0, 15px);
         }
+
         &-nav {
             padding: 37px 0 23px;
 
@@ -29,7 +34,7 @@
                 line-height: 222%;
             }
         }
-        
+
         .btn {
             padding: 22px 26px;
             margin: 0 auto 60px;
@@ -40,7 +45,44 @@
 
     }
 
-    
+    .first-screen {
+        .container {
+            padding: 0 28px;
+            text-align: center;
+            z-index: 1;
+        }
+
+        .container-xxl {
+            min-height: calc(100vh - 74px);
+            position: relative;
+           
+             &::after {
+                content: "";
+                position: absolute;
+                background: #0000008a;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+             }
+        }
+
+        &-slider__title {
+            font-size: 32px;
+            margin-bottom: 10px;
+        }
+
+        &-slider__subtitle {
+            font-size: 16px;
+            margin-bottom: 18px;
+        }
+        
+        .btn-lg{
+            white-space: nowrap;
+            
+            .icon {
+                margin: 0 -14px 0 35px;
+            }
+        }
+    } 
 }
-
-

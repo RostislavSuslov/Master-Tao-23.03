@@ -1,3 +1,22 @@
 @media (min-width: 992px) {
+    section {
+         padding-right: 50px;
+         padding-left: 50px;
+    }
+    .first-screen{
 
+        .container-xxl {
+            border-radius: 20px;
+            padding: 0 92px;
+        }
+        &-slider__title {
+            max-width: 473px;
+        }
+    
+        &-slider__subtitle {
+            max-width: 345px;
+        }
+    } 
+
+     
 }

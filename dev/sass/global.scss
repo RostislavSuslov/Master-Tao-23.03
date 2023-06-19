@@ -178,6 +178,9 @@ h6,
     &:focus-visible {
         box-shadow: none;
     }
+    &:focus {
+        box-shadow: none;
+    }
 }
 
 .btn-primary {
@@ -185,10 +188,12 @@ h6,
     border-color: $color-primary;
 
     &:hover,
-    &:active {
+    &:active,
+    &:focus {
         background-color: $color-secondary;
         border-color: $color-secondary;
     }
+    
 }
 
 .btn-secondary {
@@ -196,7 +201,8 @@ h6,
     border-color: $color-primary;
 
     &:hover,
-    &:active {
+    &:active,
+    &:focus {
         background-color: $color-secondary;
         border-color: $color-secondary;
     }
@@ -370,8 +376,13 @@ h6,
 
 
 section {
-    margin: 0 auto $section-margin-lg;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: $section-margin-lg;
     max-width: 1920px;
+    
+ 
 
     &:last-of-type {
         margin-bottom: 56px;
