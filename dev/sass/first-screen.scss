@@ -4,7 +4,7 @@
     &-slider__title {
         font-weight: 700;
         font-size: 56px;
-        line-height: 126%;
+        line-height: 127%;
         text-transform: uppercase;
         margin-bottom: 8px;
     }
@@ -34,14 +34,17 @@
     }
 
     .container-xxl {
-        max-width: 1820px;
+        max-width: 1840px;
         min-height: 700px;
         display: flex;
         align-items: center;
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+        margin: 0;
     }
+
+
 
     .slick-dots {
         position: absolute;
