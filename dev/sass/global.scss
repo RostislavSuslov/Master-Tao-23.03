@@ -478,27 +478,43 @@ section {
 
         }
     }
-
-
 }
 
+.input-row {
+    display: flex;
+}
+
+.input-column {
+    width: 100%;
+}
 
 .input-box {
     margin-bottom: 17px;
-
+    display: flex;
+    flex-direction: column;
     label {
         font-weight: 600;
         font-size: 15px;
         line-height: 126%;
         margin-bottom: 6px;
     }
+
+    input {
+        border-radius: 10px;
+        padding: 16px 10px;
+        border: none;
+        transition: 1s;
+        &:focus-visible {
+            outline: none;
+        }
+    }
 }
 
 .padding-top {
-    padding-top: 22px;
+    padding-top: 18px; /*для .input-column */
 }
 
-
-// .calculation-form  [class*="col"] .check-button:first-child {
-//     padding-top: 22px;
-// }
+.has-checkbox {
+    margin-bottom: 6px;  /*для input-box*/
+}
+  

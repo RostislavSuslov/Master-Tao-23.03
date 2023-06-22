@@ -1,0 +1,38 @@
+.calculation-form {
+    max-width: 626px;
+    width: 100%;
+    background-color: $bg-secondary;
+    border-radius: 20px;
+    padding: 50px 35px 61px;
+    margin-left: 15px;
+
+    .input-box {
+        margin: 0 15px 20px;
+
+        &.has-checkbox {
+            margin-bottom: 8px;
+
+            label {
+                display: flex;
+                align-items: center;
+            }
+        }
+    }
+    [type="file"] {
+        display: none;
+    }
+    
+    [for="myfile"] {
+        border-radius: 10px;
+        border: 1px dashed #ffffff42;
+        text-align: center;
+        padding: 11px;
+        cursor: pointer;
+        transition: .2s;
+        &:hover {
+            color: $color-secondary;
+            border-color: $color-secondary;
+
+        }
+    }
+}
