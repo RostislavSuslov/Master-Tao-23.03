@@ -1,4 +1,7 @@
 @media screen and (max-width: 991px) {
+    section {
+        margin-bottom: $section-margin;
+    }
 
     .container {
         padding-left: 20px;
@@ -89,4 +92,31 @@
     .calculation__img-box {
         display: none;
     } 
+
+    .template-title{
+        
+        h2 {
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 124.5%;
+        }
+        &.col-lg-7.text-left {
+            text-align: center;
+            h2{
+                &:after {
+                   display: none;
+               }
+
+            }
+
+            &:after {
+                left: 50%;
+                top: calc(100% - 2px);
+                transform: translate(-50%, 0);
+                display: block;
+            }
+        }
+    }
+
+ 
 }

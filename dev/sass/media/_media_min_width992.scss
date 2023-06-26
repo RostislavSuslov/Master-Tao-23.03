@@ -18,5 +18,19 @@
         }
     } 
 
-     
+    .template-title {
+      
+        /*type 2*/
+        &.text-left,
+        &.col-lg-7 {
+            text-align: left;
+    
+            &:after {
+                left: 0;
+                transform: none;
+            }
+        }
+    
+       
+    }
 }
