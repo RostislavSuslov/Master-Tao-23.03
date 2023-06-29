@@ -1,0 +1,37 @@
+
+.row {
+    margin-bottom: -58px;
+}
+.advantage {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 58px;
+    &__img-box {
+        margin: 0 auto 32px;
+        width: 93px;
+        height: 93px;
+        background: $color-secondary;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+   &__img-box:before {
+        content: "";
+        position: absolute;
+        border: 1px solid #6C7188;
+        left: -10px;
+        top: -10px;
+        right: -10px;
+        bottom: -10px;
+        border-radius: 50%;
+    }
+    
+    &__text-box {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 124.5%;
+    }
+}
