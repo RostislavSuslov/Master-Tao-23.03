@@ -16,17 +16,7 @@
         margin-bottom: 37px;
     }
 
-    &-slider__arrows {
-        position: absolute;
-        max-width: 1670px;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        padding: 0 50px;
-    }
+   
 
     .container {
         margin-bottom: 64px;
@@ -44,12 +34,21 @@
         margin: 0;
     }
 
-
-
     .slick-dots {
         position: absolute;
         left: 50%;
         bottom: 43px;
         transform: translate(-50%, 0);
     }
+}
+.first-screen-slider-arrows {
+    position: absolute;
+    max-width: 1670px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 50px;
 }
