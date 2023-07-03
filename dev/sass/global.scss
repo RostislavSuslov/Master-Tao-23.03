@@ -349,30 +349,30 @@ h6,
     }
 }
 
-.slider-template {
+// .slider-template {
    
-        margin: 0 -15px;
+//         margin: 0 -15px;
  
-    .slick-slide {
-        padding: 0 15px 27px;
-    }
-    .slick-arrow {
-        position: absolute;
-        top: 50%;
-        transform: translate(0, -50%);
-        &.slick-prev {
-            left: -100px;
-            transform: rotate(180deg) translate(0, 50%);
-        }
-        &.slick-next{
-            right: -100px;
-        }
-    }
-}
+//     .slick-slide {
+//         padding: 0 15px 27px;
+//     }
+//     .slick-arrow {
+//         position: absolute;
+//         top: 50%;
+//         transform: translate(0, -50%);
+//         &.slick-prev {
+//             left: -100px;
+//             transform: rotate(180deg) translate(0, 50%);
+//         }
+//         &.slick-next{
+//             right: -100px;
+//         }
+//     }
+// }
 
-.slider-template__img-box img {
-    border-radius: 20px;
-}
+// .slider-template__img-box img {
+//     border-radius: 20px;
+// }
 
 
 section {
